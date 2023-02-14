@@ -1,6 +1,6 @@
 function About() {
     return (
-        <h1>about</h1>
+        <h1>about <a href="/">home</a></h1>
     )
 }
 

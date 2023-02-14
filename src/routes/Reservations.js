@@ -1,7 +1,7 @@
 function Reservations () {
     return (
             <>
-                <h1>reservations</h1>
+                <h1>reservations <a href="/">home</a></h1>
             </>
 
     )

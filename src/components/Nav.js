@@ -3,27 +3,27 @@ function Nav() {
     const navItems =  [
         {
             item:'Home',
-            link:'#home'
+            link:'/'
         },
         {
             item:'About',
-            link:'#about'
+            link:'/about'
         },
         {
             item:'Menu',
-            link:'#menu'
+            link:'/menu'
         },
         {
             item:'Reservations',
-            link:'#reservations'
+            link:'/reservations'
         },
         {
             item:'Order Online',
-            link:'#orderonline'
+            link:'/orderonline'
         },
         {
             item:'Login',
-            link:'#login'
+            link:'/login'
         },
     ]
 
