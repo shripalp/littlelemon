@@ -1,0 +1,8 @@
+.container-footer {
+    display: grid;
+    grid-template-areas: 'logo locations times contactus';
+    justify-content: space-between;
+    background-color: rgba(39, 144, 242, 0.8);
+    padding: 2em;
+    width: 100%;
+}

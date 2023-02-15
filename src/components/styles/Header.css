@@ -1,0 +1,44 @@
+
+.header-item1{
+    grid-area: logo;
+    padding: 1em;
+
+}
+.header-item2{
+     grid-area: nav;
+     justify-self: end;
+     align-self: center;
+     padding: 1em;
+     background-color: aliceblue;
+}
+
+.container-header {
+    display: grid;
+    grid-template-areas:
+      'logo nav nav nav';
+
+    justify-content: space-between;
+    background-color: rgba(39, 144, 242, 0.8);
+    padding: 2em;
+    width: 100%;
+  }
+
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+.nav-menu li {
+    padding: 0 1.5em;
+}
+
+.logo-img {
+    width: 12em;
+}
+
+
+.nav-menu li a:hover {
+    color: #495e57;
+}
+

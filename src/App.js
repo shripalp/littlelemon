@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import React from "react";
-import './App.css';
+//import './App.css';
 import Home from "./routes/Home";
 import Reservations from "./routes/Reservations";
 import About from "./routes/About";

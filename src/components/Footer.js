@@ -1,7 +1,8 @@
+import "../components/styles/Footer.css"
 import footerlogo from '../components/assets/footerlogo.png'
 function Footer() {
     return (
-        <footer>
+        <footer className="container-footer">
             <img src={footerlogo} alt="footerlogo"></img>
             <div>
                 <h5>Locations</h5>

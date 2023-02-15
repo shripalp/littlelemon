@@ -1,0 +1,66 @@
+.container-main {
+    display: grid;
+    grid-template-areas:
+      'hero hero hero hero'
+      'specials specials specials specials'
+      'test test test test';
+
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    width: 100%;
+  }
+.hero-section-background {
+    grid-area: hero;
+    background-color: #495e57;
+}
+.hero-section-left {
+    grid-area: hero;
+    padding: 2em;
+}
+.hero-section-right {
+    grid-area: hero;
+    width: 50%;
+}
+
+.specials-section-container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.specials-section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-menu {
+    padding: 15px 45px;
+}
+
+.specials-section-background {
+    grid-area: specials;
+}
+.test-section-background {
+    grid-area: test;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 16pt;
+    font-weight: 600;
+    background-color: #f4ce14;
+    color: #333333;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #333333;
+    color: #f4ce14;
+    transition: 0.3s;
+}
+
+
