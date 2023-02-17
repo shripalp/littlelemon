@@ -1,6 +1,13 @@
+import React from "react"
+import Header from "../components/Header"
+
 function Login() {
     return (
-        <h1>login <a href="/">home</a></h1>
+        <>
+        <Header />
+        <h1 style={{textAlign: "center", paddingTop: "15%"}}>Login</h1>
+        </>
+        
     )
 }
 

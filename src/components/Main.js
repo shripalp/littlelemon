@@ -9,6 +9,7 @@ import SpecialsCard from './SpecialsCard'
 function HeroSection() {
     return (
         <div className="hero-section-background">
+            <div className="hero-section-container">
             <div className="hero-section-left">
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
@@ -21,13 +22,16 @@ function HeroSection() {
                 </div>
             </div>
 
+            </div>
+            
+
         </div>
 
     )
 }
 function Specials() {
     return (
-        <div className="specials-section-background">
+        <div className="specials-section-container">
              <div className="specials-section-title">
                 <h1>This Week's Specials</h1>
                 <div className="btn-container">
@@ -44,10 +48,9 @@ function Specials() {
 
 function Main() {
     return (
-        <main className="container-main">
+        <main>
             <HeroSection />
             <Specials />
-
         </main>
     )
 }

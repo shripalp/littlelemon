@@ -1,6 +1,13 @@
+import React from "react"
+import Header from "../components/Header"
+
 function About() {
     return (
-        <h1>about <a href="/">home</a></h1>
+        <>
+        <Header />
+        <h1 style={{textAlign: "center", paddingTop: "15%"}}>About</h1>
+        </>
+        
     )
 }
 

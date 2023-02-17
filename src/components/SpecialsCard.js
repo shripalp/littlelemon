@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom'
 
 const SpecialsCard = () => {
     const specialMenus = [
-        {   
+        {
             image: Dessert1,
             title: "Greek Salad",
             price: "$12.99",
